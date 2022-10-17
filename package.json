@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "publishConfig":{
     "registry":"https://npm.pkg.github.com/@steephenv"
-  }
+  },
+  "files":["dist"],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
