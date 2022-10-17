@@ -17,8 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^9.1.4",
-    "@nestjs/testing": "^9.1.4",
-    "steephen_module": "https://github.com/steephenv/nest-shared-module-test.git"
+    "@nestjs/testing": "^9.1.4"
   },"devDependencies": {
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
