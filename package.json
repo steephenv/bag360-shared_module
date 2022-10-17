@@ -18,7 +18,8 @@
   "files":["dist"],
   "dependencies": {
     "@nestjs/common": "^9.1.4",
-    "@nestjs/testing": "^9.1.4"
+    "@nestjs/testing": "^9.1.4",
+    "webpack-cli": "^4.10.0"
   },"devDependencies": {
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
