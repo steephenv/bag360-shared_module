@@ -15,7 +15,6 @@
   },
   "author": "",
   "license": "ISC",
-  "files":["dist"],
   "dependencies": {
     "@nestjs/common": "^9.1.4",
     "@nestjs/testing": "^9.1.4",
