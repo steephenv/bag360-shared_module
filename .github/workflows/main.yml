@@ -26,5 +26,9 @@ jobs:
       run: |
         npm install
         npm run build --if-present
+        with:
+                pushToBranch: true # optional; can either be true or false | defaults to false
+                branch: 'dist' # optional; the name of the branch the action should push the compiled code to | defaults to dist
+                githubToken: ${{ secrets.GITHUB_TOKEN }} #
       
 
