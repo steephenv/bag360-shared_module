@@ -24,7 +24,8 @@ jobs:
         node-version: ${{ matrix.node_version }}
         registry-url: 'https://npm.pkg.github.com'
         scope: '@steephenv'
-
+    - name: npmrc
+      run: cat .npmrc
     - name: npm install, build
       run: |
         npm install
