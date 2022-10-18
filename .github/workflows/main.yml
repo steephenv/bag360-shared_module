@@ -1,4 +1,4 @@
-name: shared_modules
+name: "@steephenv/shared_modules"
 on:
   push:
     branches:
